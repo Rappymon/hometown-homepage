@@ -1,0 +1,142 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #1D3557;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/montalban.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    color: #FFFFFF;
+    background: #404e7c;
+    margin-top: 150px;  
+    padding: 6px 15px;
+    border-radius: 10px;
+    text-shadow: 5px 5px 1px black;
+}
+
+#header1:hover{
+    background: #83c5be;
+    transition: 0.3s;
+    font-size: 50px;
+}
+
+#header2:hover{
+    font-size: 24px;
+    width: 450px;
+    background: #83c5be;
+    transition: 0.3s;
+}
+
+#header2{
+    background: #251F47;
+    margin-top: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+h3{
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.activities{
+    background: #F2E9DC;
+}
+
+.activity{
+    width: 400px;
+}
+
+#activities{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.activity-logo{
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.activity-headline{
+    font-weight: bold;
+}
+
+
+.guide{
+    padding: 25px;
+}
+
+#guide-logo{
+    width: 200px;
+    border: 1px solid black;
+}
+
+h4, h5{
+    margin: 0px;
+}
+
+.card{
+    width: 400px;
+    height: 250px;
+    background: #91C499;
+    border-bottom: 5px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#card-text{
+    padding: 40px 10px;
+    margin-left: 10px;
+    color: #040A10;
+}
+
+#card-title{
+    font-size: 20px;
+}
+
+#card-desc{
+    font-style: italic;
+}
+
+#card-guide{
+    font-size: 16px;
+    font-style: italic;
+}
+
+#wrapper{
+    margin: 10px 10px 20px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
